@@ -1,6 +1,6 @@
 const jsonServer = require('json-server');
 const server = jsonServer.create();
-const router = jsonServer.router('./json/spotify-db.json');
+const router = jsonServer.router('./json/data.json');
 const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3500;
 
